@@ -1,3 +1,41 @@
 body {
     padding-top: 5rem;
 }
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    width:100%;
+    height:80px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    color:white;
+ }
+
+.nvbar {
+    text-decoration-color: #f74bfa;
+    background-color: #ff85ad;
+ }
+
+.glowing-border {
+    border: 2px solid #ff85ad;
+    border-radius: 7px;
+    }
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: #f74bfa;
+    box-shadow: 0 0 10px #f74bfa;
+}
+
+
+.bunnon {
+    color: #ff85ad;
+    border-color: 0 0 3px solid #f74bfa;
+    box-shadow: 0 0 10px #f74bfa;
+}
